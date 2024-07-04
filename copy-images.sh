@@ -190,6 +190,7 @@ EOS
 crane copy registry.opensuse.org/opensuse/tumbleweed@sha256:d5ca535ba690e75ccd8d88cb44e2dc783555955c6fe345ccfbf05d55cdf61ba8 ${TEST_IMAGE}:opensuse-tumbleweed
 
 
+
 cat <<EOS
 
 ###################
