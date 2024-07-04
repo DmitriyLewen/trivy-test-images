@@ -180,6 +180,17 @@ EOS
 crane copy registry.opensuse.org/opensuse/leap@sha256:df3070b577cbdfd84dfb30d5ae86e58b6f377b1fc5368cebaec753d8013e8442 ${TEST_IMAGE}:opensuse-leap-151
 
 
+
+cat <<EOS
+#############################################
+registry.opensuse.org/opensuse/tumbleweed:20240607.30.45
+#############################################
+EOS
+
+crane copy registry.opensuse.org/opensuse/tumbleweed@sha256:d5ca535ba690e75ccd8d88cb44e2dc783555955c6fe345ccfbf05d55cdf61ba8 ${TEST_IMAGE}:opensuse-tumbleweed
+
+
+
 cat <<EOS
 
 ###################
